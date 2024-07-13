@@ -1,0 +1,216 @@
+*{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    background-color: hsl(30, 54%, 90%);
+    align-items: center;
+    
+}
+
+h1{
+    color: hsl(24, 5%, 18%);
+}
+h2{
+    color: hsl(14, 45%, 36%);
+}
+p{
+    color: hsl(30, 10%, 34%);
+}
+li{
+    color: hsl(30, 10%, 34%);
+}
+
+.desktop-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 0;
+}
+.desktop-and-mobile-design{
+    width: 45%;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+.desktop-and-mobile-design img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Preparation-time{
+    background-color: hsl(330, 100%, 98%);
+    color: hsl(332, 51%, 32%);
+    padding:25px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.Preparation-time h3{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    padding-left: 25px;
+}
+
+ul li{
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.Preparation-time ul li::before{
+    content: ''; /* No text content */
+    position: absolute; /* Position relative to list item */
+    left: -20px; /* Adjust position to left */
+    top: 40%; /* Adjust position vertically */
+    width: 4px; /* Width of the custom marker */
+    height: 4px; /* Height of the custom marker */
+    background-color: hsl(332, 51%, 32%); /* Color of the custom marker */
+    border-radius: 50%; /* Make it a circle */
+}
+
+ul li::before{
+    content: ''; /* No text content */
+    position: absolute; /* Position relative to list item */
+    left: -20px; /* Adjust position to left */
+    top: 40%; /* Adjust position vertically */
+    width: 4px; /* Width of the custom marker */
+    height: 4px; /* Height of the custom marker */
+    background-color: hsl(14, 45%, 36%); /* Color of the custom marker */
+    border-radius: 50%; /* Make it a circle */
+}
+
+ol{
+    list-style: none;
+    padding-left: 25px;
+}
+
+ol li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+ol li.Instructions-1::before {
+    content: '1.'; 
+    font-weight: bold;
+    position: absolute; 
+    left: -20px; 
+    top: 0;
+    color: hsl(14, 45%, 36%);
+}
+ol li.Instructions-2::before {
+    content: '2.'; 
+    font-weight: bold;
+    position: absolute; 
+    left: -20px; 
+    top: 0;
+    color: hsl(14, 45%, 36%);
+}
+ol li.Instructions-3::before {
+    content: '3.'; 
+    font-weight: bold;
+    position: absolute; 
+    left: -20px; 
+    top: 0;
+    color: hsl(14, 45%, 36%);
+}
+ol li.Instructions-4::before {
+    content: '4.'; 
+    font-weight: bold;
+    position: absolute; 
+    left: -20px; 
+    top: 0;
+    color: hsl(14, 45%, 36%);
+}
+ol li.Instructions-5::before {
+    content: '5.'; 
+    font-weight: bold;
+    position: absolute; 
+    left: -20px; 
+    top: 0;
+    color: hsl(14, 45%, 36%);
+}
+ol li.Instructions-6::before {
+    content: '6.'; 
+    font-weight: bold;
+    position: absolute; 
+    left: -20px; 
+    top: 0;
+    color: hsl(14, 45%, 36%);
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    padding: 15px 30px;
+    color: hsl(30, 10%, 34%);
+}
+
+.col-2-font{
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+.line {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+hr{
+    margin-top: 1.5rem;
+    border-color: hsl(30, 18%, 87%);
+}
+
+.attribution { font-size: 11px; text-align: center; background-color: hsl(30, 54%, 90%);}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width:855px){
+    .desktop-design{
+    
+        width: auto;
+        
+        padding: 0;
+    }
+    .desktop-and-mobile-design{
+        width: 100%;
+        padding: 0;
+        background-color: white;
+        border-radius: 0;
+    }
+    .desktop-and-mobile-design img{
+        width: 100%;
+        border-radius: 0;
+    }
+    .mobile-design{
+        
+        padding: 20px;
+    }
+    .attribution { font-size: 11px; text-align: center; background-color: white;}
+}
+
+
+
+
+
+
+
+
